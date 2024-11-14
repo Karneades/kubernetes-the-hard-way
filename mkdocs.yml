@@ -1,10 +1,13 @@
 site_name: Kubernetes The Hard Way
 docs_dir: docs
 site_dir: site
+repo_url: https://github.com/Karneades/kubernetes-the-hard-way/
+edit_uri: edit/main/docs/
 
 theme:
   name: material
   features:
+    - content.action.edit
     - navigation.footer
     - content.code.copy
     - navigation.indexes
